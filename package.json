@@ -1,12 +1,13 @@
 {
-  "name": "test_",
+  "name": "test_task",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://danya0ryaba.github.io/test_task",
   "scripts": {
     "dev": "vite",
-    "deploy": "npm run build && gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
