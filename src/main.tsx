@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')!).render(
   <Provider store={store}>
-    <HashRouter basename='/test_task/'>
+    <HashRouter basename='/test_task'>
       <App />
     </HashRouter>
   </Provider>
